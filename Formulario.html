@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Formularis teoria</title>
+    <link rel="stylesheet" href="stylesFormulari.css">
+</head>
+
+<body>
+    <form action="formulari_enviat.html">
+
+        <h1>Check-in Balearia</h1>
+        <p>Dades personals:</p>
+
+        <table>
+            <div>
+                <tr>
+                    <td><label for="Noms"> Nom i cognom</label><br>
+                    <td><input id="Noms" type="text" class="Entrades-curtes" required></td>    
+                </tr>
+                <tr>
+                    <td><label for="Email"> Email</label></br>
+                    <td><input id="Email" type="text" class="Entrades-curtes" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Edat"> Edat</label><br>
+                    <td><input id="Edat" type="text" class="Entrades-curtes" required></td>
+                </tr>
+            </div>
+        </table>
+
+        <p>Sexe</p>
+        <div>
+            <input id="Home" type="radio" name="genere" value="Home">
+            <label for="Home">Home</label><br>
+
+            <input id="Dona" type="radio" name="genere" value="Dona">
+            <label for="Dona">Dona</label><br>
+
+            <input id="Altres" type="radio" name="genere" value="Altres">
+            <label for="Altres">Altres</label><br>
+        </div><br>
+
+        <p>Portes algún tipus de vehicle ?</p>
+
+        <select>
+            <option>Cotxe</option>
+            <option>Moto</option>
+            <option>Furgoneta/Camió</option>
+            <option>No</option>
+        </select>
+
+        <p>Com viatjes?</p>
+
+        <div>
+            <table>
+                <tr>
+                    <td><input id="Viatjo sol" type="checkbox"></td>
+                    <td><label for="Viatjo sol"> Viatjo Sol</label></td>
+                </tr>
+                <tr>
+                    <td><input id="Amb nens" type="checkbox"></td>
+                    <td><label for="Amb nens">Amb nens </label></td>
+                </tr>
+                <tr>
+                    <td><input id="Amb mascota" type="checkbox"></td>
+                    <td><label for="Amb mascota">Amb mascota</label></td>
+                </tr>
+
+        </div><br>
+        </table>
+
+
+        <p>Hi ha algo que vulguis comentarnos?</p>
+        <div>
+            <label for="descripcion"></label>
+            <textarea rows="7" cols="50" required></textarea>
+
+
+        </div>
+
+        <input type="submit" value="Enviar" id="BotonEnviar">
+
+
+    </form>
+
+
+</body>
+
+</html>

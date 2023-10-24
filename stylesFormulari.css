@@ -1,0 +1,49 @@
+body {               /*li donem un color i un estil de lletra a tot el que estigui en body*/
+
+    background-color: rgb(98, 206, 139);
+    font-family:Verdana, Geneva, Tahoma, sans-serif 
+   
+}
+
+p {
+
+    font-weight: bold;        /* fem que tot el contingut de <p>, estigui en negreta */
+    
+}
+
+.Entrades-curtes {            /* modifiquem la mida de les entrades curtes amb un . i amb el nom de la classe, aL pixels corresponents*/
+
+    width: 300px;
+
+}
+
+#Edat {
+
+    width: 100px;
+
+}
+
+#BotonEnviar {                  /* per id, seleccionem BotonEnviar i cambiem el background i la mida */
+ 
+    background-color: rgb(119, 255, 0);
+    color:black;
+    padding: 15px 25px;
+     
+&:hover {
+
+    background-color: rgb(165, 146, 0);       /*Amb el hover, fem que cuan el cursor estigui per sobre del boto, el volor d'aquest canvii*/
+    color:White; 
+
+
+    }
+}
+
+:focus {
+
+border: 4px solid rgba(255, 149, 0, 0.819) ;  /* aquest comand serveix per quan estas focus en un apartat, aquest estigui remarcat per un color*/ 
+
+
+
+}
+
+
